@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andaman Holiday Trips - Andaman Honeymoon</title>
+    <link href="honeymoon.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div class="top-bar">
+        <div class="container">
+            <span><i class="fa fa-phone"></i> +91 9933288398</span> <span><i class="fa fa-envelope"></i> info@andamanHOLIDAYTRIPS.com</span> <span><i class="fa fa-check-circle"></i> Verified Experts</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <nav class="main-nav">
+            <a href="#" class="nav-logo">
+                <span><i class="fa fa-umbrella-beach"></i></span> ANDAMAN HOLIDAY TRIPS
+            </a>
+            <div class="nav-menu">
+                <a href="#" class="active">Home</a>
+                <a href="#packages">Honeymoon Packages</a>
+                <a href="#activities">Family Packages</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero-club" style="background-image: url('assets/hero.png');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            
+            <!-- LEFT FORM -->
+            <div class="travel-form">
+                <div class="form-tabs">
+                    <div class="form-tab active" style="width: 100%; text-align: center; border: none;">
+                        <i class="fa fa-umbrella-beach"></i> Plan Your Trip
+                    </div>
+                </div>
+
+                <form id="hero-lead-form">
+                    <div class="form-row">
+                        <div class="form-control">
+                            <label class="small-label">Your Name</label>
+                            <input type="text" class="form-input" placeholder="Enter Name">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-control">
+                            <label class="small-label">Mobile Number</label>
+                            <input type="tel" class="form-input" placeholder="WhatsApp Number">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-control">
+                            <label class="small-label">Travel Date</label>
+                            <input type="date" class="form-input">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-control">
+                            <label class="small-label">Duration</label>
+                            <select class="form-select">
+                                <option>4 Days</option>
+                                <option>5 Days</option>
+                                <option>6 Days</option>
+                                <option>7+ Days</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-search-main">Get Best Quote</button>
+                </form>
+            </div>
+
+            <!-- RIGHT TEXT -->
+            <div class="hero-text-right">
+                <div class="hero-title">ANDAMAN.<br>HOLIDAY TRIPS.</div>
+                <div class="hero-subtitle-box">
+                    Andaman Islands <span style="font-weight:400; font-size:14px; margin-left:10px;">5 Nights / 6 Days from</span> <span class="hero-price">₹15,999</span>
+                </div>
+                <div style="margin-top: 20px;">
+                    <button style="background:var(--color-orange); color:white; border:none; padding:10px 20px; font-weight:700;">HONEYMOON SPECIAL</button>
+                    <button style="background:rgba(255,165,0,0.7); color:white; border:none; padding:10px 20px; font-weight:700;">EXPLORE</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTENT LAYOUT -->
+    <div class="container layout-grid">
+        
+        <!-- LEFT: CARDS -->
+        <div class="main-content">
+            
+            <!-- Honeymoon Section -->
+            <div class="section-head" id="honeymoon-packages">
+                <h2>Andaman Honeymoon Packages</h2>
+                <p>Curated romantic experiences for couples.</p>
+            </div>
+
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="club-card">
+                    <div class="card-img-top"><img src="assets/package1.png" alt="Havelock"></div>
+                    <div class="card-body">
+                        <div class="card-title">Romantic Escape</div>
+                        <div class="card-days">5 days / 4 nights</div>
+                        
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-shuttle-van"></i> Private Transfer</li>
+                            <li><i class="fa fa-hotel"></i> 3 Star Hotel</li>
+                            <li><i class="fa fa-ship"></i> Pvt Ferry</li>
+                            <li><i class="fa fa-ticket-alt"></i> Entry Tickets</li>
+                        </ul>
+                        
+                        <div class="card-footer-row">
+                            <div class="card-price">15,999</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Romantic Escape Package" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Romantic Escape">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="club-card">
+                    <div class="card-img-top"><img src="assets/package2.png" alt="Neil"></div>
+                    <div class="card-body">
+                        <div class="card-title">Exotic Honeymoon</div>
+                        <div class="card-days">6 days / 5 nights</div>
+                        
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-shuttle-van"></i> AC Cabs</li>
+                            <li><i class="fa fa-hotel"></i> Beach Resort</li>
+                            <li><i class="fa fa-ship"></i> Cruise Ticket</li>
+                            <li><i class="fa fa-ticket-alt"></i> Sightseeing</li>
+                        </ul>
+
+                        <div class="card-footer-row">
+                            <div class="card-price">24,999</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Exotic Honeymoon Package" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Exotic Honeymoon">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="club-card">
+                    <div class="card-img-top"><img src="assets/bg_sunset.png" alt="Port Blair"></div>
+                    <div class="card-body">
+                        <div class="card-title">Luxury Island Tour</div>
+                        <div class="card-days">7 days / 6 nights</div>
+                        
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-car"></i> Luxury Car</li>
+                            <li><i class="fa fa-hotel"></i> 4 Star Stay</li>
+                            <li><i class="fa fa-ship"></i> Makruzz Gold</li>
+                            <li><i class="fa fa-ticket-alt"></i> All Entries</li>
+                        </ul>
+
+                        <div class="card-footer-row">
+                            <div class="card-price">35,999</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Luxury Island Tour" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Luxury Island Tour">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="club-card">
+                    <div class="card-img-top"><img src="assets/package3.png" alt="Luxury"></div>
+                    <div class="card-body">
+                        <div class="card-title">Magical Andaman</div>
+                        <div class="card-days">6 days / 5 nights</div>
+                        
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-shuttle-van"></i> Private Cab</li>
+                            <li><i class="fa fa-hotel"></i> Pool Villa</li>
+                            <li><i class="fa fa-ship"></i> Green Ocean</li>
+                            <li><i class="fa fa-ticket-alt"></i> Museums</li>
+                        </ul>
+
+                        <div class="card-footer-row">
+                            <div class="card-price">28,500</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Magical Andaman" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Magical Andaman">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="club-card">
+                    <div class="card-img-top"><img src="assets/package1.png" alt="Island Hopping"></div>
+                    <div class="card-body">
+                        <div class="card-title">Island Hopping</div>
+                        <div class="card-days">6 days / 5 nights</div>
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-shuttle-van"></i> All Transfers</li>
+                            <li><i class="fa fa-hotel"></i> 3 Star Deluxe</li>
+                            <li><i class="fa fa-ship"></i> Green Ocean</li>
+                            <li><i class="fa fa-ticket-alt"></i> Water Sports</li>
+                        </ul>
+                        <div class="card-footer-row">
+                            <div class="card-price">21,999</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Island Hopping" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Island Hopping">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="club-card">
+                    <div class="card-img-top"><img src="assets/bg_sunset.png" alt="Ultimate Luxury"></div>
+                    <div class="card-body">
+                        <div class="card-title">Ultimate Andaman</div>
+                        <div class="card-days">8 days / 7 nights</div>
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-car"></i> Luxury SUV</li>
+                            <li><i class="fa fa-hotel"></i> 5 Star Resort</li>
+                            <li><i class="fa fa-ship"></i> Private Yacht</li>
+                            <li><i class="fa fa-camera"></i> Drone Shoot</li>
+                        </ul>
+                        <div class="card-footer-row">
+                            <div class="card-price">45,000</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Ultimate Andaman" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Ultimate Andaman">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="club-card">
+                    <div class="card-img-top"><img src="assets/package2.png" alt="Beach Paradise"></div>
+                    <div class="card-body">
+                        <div class="card-title">Beach Paradise</div>
+                        <div class="card-days">5 days / 4 nights</div>
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-shuttle-van"></i> All Transfers</li>
+                            <li><i class="fa fa-hotel"></i> Beach Resort</li>
+                            <li><i class="fa fa-ship"></i> Cruise</li>
+                            <li><i class="fa fa-utensils"></i> Candlelight Dinner</li>
+                        </ul>
+                        <div class="card-footer-row">
+                            <div class="card-price">19,500</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Beach Paradise" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Beach Paradise">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="club-card">
+                    <div class="card-img-top"><img src="assets/package3.png" alt="Royal Honeymoon"></div>
+                    <div class="card-body">
+                        <div class="card-title">Royal Honeymoon</div>
+                        <div class="card-days">7 days / 6 nights</div>
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-car"></i> Luxury Cab</li>
+                            <li><i class="fa fa-hotel"></i> Taj Exotica</li>
+                            <li><i class="fa fa-ship"></i> Private Yacht</li>
+                            <li><i class="fa fa-spa"></i> Couple Spa</li>
+                        </ul>
+                        <div class="card-footer-row">
+                            <div class="card-price">42,000</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Royal Honeymoon" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Royal Honeymoon">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Family Section -->
+            <div class="section-head" id="family-packages" style="margin-top: 60px;">
+                <h2>Andaman Family Packages</h2>
+                <p>Fun-filled vacations for your loved ones.</p>
+            </div>
+
+            <div class="cards-grid">
+                <!-- Family Card 1 -->
+                <div class="club-card">
+                    <div class="card-img-top"><img src="assets/hero.png" alt="Family Fun"></div>
+                    <div class="card-body">
+                        <div class="card-title">Family Fun</div>
+                        <div class="card-days">5 days / 4 nights</div>
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-users"></i> Family Cab</li>
+                            <li><i class="fa fa-hotel"></i> Family Suite</li>
+                            <li><i class="fa fa-umbrella-beach"></i> Beach Games</li>
+                            <li><i class="fa fa-camera"></i> Photoshoot</li>
+                        </ul>
+                        <div class="card-footer-row">
+                            <div class="card-price">18,500</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Family Fun Package" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Family Fun">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Family Card 2 -->
+                <div class="club-card">
+                    <div class="card-img-top"><img src="assets/package1.png" alt="Super Saver"></div>
+                    <div class="card-body">
+                        <div class="card-title">Super Saver Family</div>
+                        <div class="card-days">6 days / 5 nights</div>
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-bus"></i> SIC Transfers</li>
+                            <li><i class="fa fa-hotel"></i> Budget Hotel</li>
+                            <li><i class="fa fa-ship"></i> Gov Ferry</li>
+                            <li><i class="fa fa-utensils"></i> Breakfast</li>
+                        </ul>
+                        <div class="card-footer-row">
+                            <div class="card-price">12,999</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Super Saver Family" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Super Saver Family">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Family Card 3 -->
+                <div class="club-card">
+                    <div class="card-img-top"><img src="assets/hero.png" alt="Adventure Family"></div>
+                    <div class="card-body">
+                        <div class="card-title">Adventure Family</div>
+                        <div class="card-days">6 days / 5 nights</div>
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-swimmer"></i> Scuba Diving</li>
+                            <li><i class="fa fa-hotel"></i> 3 Star Hotel</li>
+                            <li><i class="fa fa-ship"></i> Cruise</li>
+                            <li><i class="fa fa-hiking"></i> Jungle Trek</li>
+                        </ul>
+                        <div class="card-footer-row">
+                            <div class="card-price">25,500</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Adventure Family" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Adventure Family">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Family Card 4 -->
+                <div class="club-card">
+                    <div class="card-img-top"><img src="assets/bg_sunset.png" alt="Relaxing Retreat"></div>
+                    <div class="card-body">
+                        <div class="card-title">Relaxing Retreat</div>
+                        <div class="card-days">5 days / 4 nights</div>
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-shuttle-van"></i> Private Cab</li>
+                            <li><i class="fa fa-hotel"></i> Beach Resort</li>
+                            <li><i class="fa fa-umbrella-beach"></i> Leisure Day</li>
+                            <li><i class="fa fa-ship"></i> Cruise</li>
+                        </ul>
+                        <div class="card-footer-row">
+                            <div class="card-price">18,000</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Relaxing Retreat" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Relaxing Retreat">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Family Card 5 -->
+                <!-- <div class="club-card">
+                    <div class="card-img-top"><img src="assets/package1.png" alt="Complete Andaman"></div>
+                    <div class="card-body">
+                        <div class="card-title">Complete Andaman</div>
+                        <div class="card-days">8 days / 7 nights</div>
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-map-marked-alt"></i> All Islands</li>
+                            <li><i class="fa fa-hotel"></i> 3 Star Deluxe</li>
+                            <li><i class="fa fa-ship"></i> Green Ocean</li>
+                            <li><i class="fa fa-user-tie"></i> Guide</li>
+                        </ul>
+                        <div class="card-footer-row">
+                            <div class="card-price">32,000</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Complete Andaman" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Complete Andaman">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                 <!-- Family Card 6 -->
+                <!-- <div class="club-card">
+                    <div class="card-img-top"><img src="assets/package2.png" alt="Short & Sweet"></div>
+                    <div class="card-body">
+                        <div class="card-title">Short & Sweet</div>
+                        <div class="card-days">4 days / 3 nights</div>
+                        <ul class="card-details-list">
+                            <li><i class="fa fa-city"></i> Port Blair</li>
+                            <li><i class="fa fa-hotel"></i> City Hotel</li>
+                            <li><i class="fa fa-monument"></i> Jail Visit</li>
+                            <li><i class="fa fa-car"></i> AC Cab</li>
+                        </ul>
+                        <div class="card-footer-row">
+                            <div class="card-price">10,500</div>
+                            <div class="card-actions">
+                                <a href="https://wa.me/919933288398?text=Hi, I am interested in Short & Sweet" target="_blank" class="btn-card-action btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <button class="btn-card-action btn-enquire btn-open-modal" data-package="Short & Sweet">Enquire Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+        </div>
+
+        <!-- RIGHT: SIDEBAR -->
+        <div class="sidebar">
+            <div class="sidebar-head">
+                <h3>Explore<br>Andaman</h3>
+                <p>Top romantic destinations.</p>
+            </div>
+
+            <!-- Havelock -->
+            <div class="sidebar-tile">
+                <img src="assets/package1.png" alt="Havelock">
+                <div class="tile-overlay">
+                    <div class="tile-title">Havelock<br>Island</div>
+                </div>
+            </div>
+
+            <!-- Neil -->
+            <div class="sidebar-tile">
+                <img src="assets/package2.png" alt="Neil">
+                <div class="tile-overlay">
+                    <div class="tile-title">Neil<br>Island</div>
+                </div>
+            </div>
+
+            <!-- Port Blair -->
+            <div class="sidebar-tile">
+                <img src="assets/bg_sunset.png" alt="Port Blair">
+                <div class="tile-overlay">
+                    <div class="tile-title">Port<br>Blair</div>
+                </div>
+            </div>
+
+            <!-- Chidiyatapu -->
+            <div class="sidebar-tile">
+                <img src="assets/hero.png" alt="Chidiyatapu">
+                <div class="tile-overlay">
+                    <div class="tile-title">Chidiyatapu<br>Sunset</div>
+                </div>
+            </div>
+
+             <!-- Ross and Northbay -->
+            <div class="sidebar-tile">
+                <img src="assets/package3.png" alt="Ross and Northbay">
+                <div class="tile-overlay">
+                    <div class="tile-title">Ross &<br>Northbay</div>
+                </div>
+            </div>
+
+             <!-- Radhanagar -->
+            <div class="sidebar-tile">
+                <img src="assets/package1.png" alt="Radhanagar Beach">
+                <div class="tile-overlay">
+                    <div class="tile-title">Radhanagar<br>Beach</div>
+                </div>
+            </div>
+
+            <!-- Baratang -->
+            <div class="sidebar-tile">
+                <img src="assets/package2.png" alt="Baratang">
+                <div class="tile-overlay">
+                    <div class="tile-title">Baratang<br>Caves</div>
+                </div>
+            </div>
+
+            <!-- Bharatpur Beach -->
+            <div class="sidebar-tile">
+                <img src="assets/package3.png" alt="Bharatpur Beach">
+                <div class="tile-overlay">
+                    <div class="tile-title">Bharatpur<br>Beach</div>
+                </div>
+            </div>
+
+            <!-- Elephant Beach -->
+            <div class="sidebar-tile">
+                <img src="assets/hero.png" alt="Elephant Beach">
+                <div class="tile-overlay">
+                    <div class="tile-title">Elephant<br>Beach</div>
+                </div>
+            </div>
+
+            <!-- Sitapur Beach -->
+            <div class="sidebar-tile">
+                <img src="assets/bg_sunset.png" alt="Sitapur Beach">
+                <div class="tile-overlay">
+                    <div class="tile-title">Sitapur<br>Beach</div>
+                </div>
+            </div>
+
+            <!-- Corbyn's Cove -->
+            <div class="sidebar-tile">
+                <img src="assets/package1.png" alt="Corbyn's Cove">
+                <div class="tile-overlay">
+                    <div class="tile-title">Corbyn's<br>Cove</div>
+                </div>
+            </div>
+
+            <!-- Wandoor Beach -->
+            <div class="sidebar-tile">
+                <img src="assets/package1.png" alt="Wandoor Beach">
+                <div class="tile-overlay">
+                    <div class="tile-title">Wandoor<br>Beach</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BOOK YOUR TRIP SECTION -->
+    <section class="book-trip-section" style="padding: 80px 0; background: #fff;">
+        <div class="container">
+            <div class="book-trip-grid">
+                <!-- Left Text Content -->
+                <div class="book-content">
+                    <span class="sub-title" style="color: #5e6282; font-weight: 600;">Easy and Fast</span>
+                    <h2 style="font-size: 40px; color: #181e4b; font-weight: 700; margin: 15px 0 30px;">Book Your Next Trip <br>In 3 Easy Steps</h2>
+                    
+                    <div class="steps-list">
+                        <!-- Step 1 -->
+                        <div class="step-item">
+                            <div class="step-icon" style="background: #f1a501;"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="step-desc">
+                                <h4>Choose Destination</h4>
+                                <p>Select your favorite Andaman island package.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="step-item">
+                            <div class="step-icon" style="background: #df6951;"><i class="fas fa-wallet"></i></div>
+                            <div class="step-desc">
+                                <h4>Make Payment</h4>
+                                <p>Secure your booking with a small deposit.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="step-item">
+                            <div class="step-icon" style="background: #006380;"><i class="fas fa-plane-departure"></i></div>
+                            <div class="step-desc">
+                                <h4>Reach Airport</h4>
+                                <p>Arrive at Port Blair on your selected date.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Image Card Content -->
+                <div class="book-image-card">
+                    <div class="trip-card-blob"></div> <!-- Abstract blurred Background -->
+                    <div class="trip-card">
+                        <img src="assets/package3.png" alt="Trip" class="trip-card-img">
+                        <div class="trip-info">
+                            <h3>Trip to Andaman</h3>
+                            <p class="trip-date">14-29 January | by Shiva Kumar</p>
+                            <div class="trip-icons">
+                                <span class="icon-circle"><i class="fas fa-leaf"></i></span>
+                                <span class="icon-circle"><i class="fas fa-map"></i></span>
+                                <span class="icon-circle"><i class="fas fa-paper-plane"></i></span>
+                            </div>
+                            <div class="trip-people">
+                                <span class="people-count"><i class="fas fa-building"></i> 24 people going</span>
+                                <i class="far fa-heart heart-icon"></i>
+                            </div>
+                        </div>
+                        
+                        <!-- Floating Status Card -->
+                        <div class="trip-ongoing-card">
+                            <div class="ongoing-icon"><img src="assets/package1.png" alt="Icon" style="width:100%; height:100%; object-fit:cover; border-radius:50%;"></div>
+                            <div class="ongoing-info">
+                                <span>Ongoing</span>
+                                <h5>Trip to Havelock</h5>
+                                <div class="progress-bar"><div class="progress" style="width: 40%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAVELLER REVIEWS SECTION -->
+    <section class="bg-white" id="reviews" style="padding: 0px 0; overflow: hidden;">
+        <div class="container">
+            <div class="section-head text-center" style="margin-bottom: 40px; text-align:center;">
+                <h2>What Our Travelers Say</h2>
+                <p>Real stories from happy couples.</p>
+            </div>
+            
+            <div class="reviews-slider">
+                <div class="reviews-track">
+                    <!-- Review 1 -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" class="review-avatar">
+                            <div>
+                                <div class="review-name">Rahul & Priya</div>
+                                <div class="review-stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">"The candlelight dinner by the beach was magical! Everything was perfectly organized by the Andaman Holiday Trip team. Highly recommended for honeymooners!"</p>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User" class="review-avatar">
+                            <div>
+                                <div class="review-name">Sneha & Amit</div>
+                                <div class="review-stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">"Havelock Island is paradise. The private cruise transfers made us feel like VIPs. Thank you for the amazing memories!"</p>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="User" class="review-avatar">
+                            <div>
+                                <div class="review-name">Vikram & Neha</div>
+                                <div class="review-stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">"Great support from the team. The scuba diving experience was safe and thrilling. The hotel in Port Blair was very comfortable."</p>
+                    </div>
+                     <!-- Review 4 (Duplicate for demo length if needed, or add new) -->
+                     <div class="review-card">
+                        <div class="review-header">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="User" class="review-avatar">
+                            <div>
+                                <div class="review-name">Anjali & Rohan</div>
+                                <div class="review-stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">"From airport pickup to drop-off, everything was seamless. The private yacht ride was the highlight of our trip!"</p>
+                    </div>
+                </div>
+                
+                <!-- Slider Controls -->
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section" id="faq" style="padding: 0px 0; background: #f4f6f9;">
+        <div class="container">
+            <div class="section-head text-center" style="margin-bottom: 50px; text-align:center;">
+                <h2>Frequently Asked Questions</h2>
+                <p>Everything you need to know before you go.</p>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-column">
+                    <div class="faq-item active">
+                        <div class="faq-question">
+                            Is flight fare included in these packages? <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer" style="max-height: 100px;">
+                            <p>No, flight fares are not included as they vary dynamically. However, we can assist you in booking the best available flights at the lowest rates.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            Is it safe to visit Andaman now? <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, Andaman is one of the safest tourist destinations in India. We follow all safety protocols to ensure a secure and hassle-free trip for you.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-column">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            Can we customize existing packages? <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! All our packages are fully customizable. You can add or remove days, change hotels, or include specific activities as per your preference.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            What documents are required for entry? <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Indian citizens need a valid photo ID (Aadhar/Voter ID/Passport). Foreign nationals require a valid Indian Visa. No special permit is needed for standard tourist islands.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="newsletter-section" style="padding: 0 0 80px 0; background: #f4f6f9;">
+        <div class="container">
+            <div class="newsletter-box">
+                <div class="newsletter-content">
+                    <div class="newsletter-icon-floating">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                    <h2>Subscribe to get information, latest news and other <br> interesting offers about Andaman</h2>
+                    
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <i class="far fa-envelope"></i>
+                            <input type="email" placeholder="Your email" required>
+                        </div>
+                        <button type="submit" class="btn-subscribe">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EYE CATCHY FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1 -->
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span><i class="fa fa-umbrella-beach"></i></span> ANDAMAN HOLIDAY TRIPS
+                    </div>
+                    <p>We craft unforgettable honeymoon experiences in the Andaman Islands. Verified professionals, 24/7 support, and the best prices guaranteed.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Col 2 -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#packages">Honeymoon Packages</a></li>
+                        <li><a href="#family-packages">Family Packages</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3 -->
+                <!-- <div class="footer-col">
+                    <h4>Popular Islands</h4>
+                    <ul>
+                        <li><a href="#">Havelock Island</a></li>
+                        <li><a href="#">Neil Island</a></li>
+                        <li><a href="#">Port Blair</a></li>
+                        <li><a href="#">Baratang</a></li>
+                        <li><a href="#">Ross Island</a></li>
+                    </ul>
+                </div> -->
+
+                <!-- Col 4 -->
+                <div class="footer-col">
+                    <h4>Contact Support</h4>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Port Blair, Andaman & Nicobar</li>
+                        <li><i class="fas fa-phone"></i> +91 99332 88398</li>
+                        <li><i class="fas fa-envelope"></i> info@andamanholidaytrips.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Andaman Holiday Trips. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT (Existing JS logic handles basic interactions if needed) -->
+    <!-- LEAD ENQUIRY MODAL -->
+    <div id="lead-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 style="color:var(--color-blue-dark); text-align:center; margin-bottom:10px;">Get Best Quote</h3>
+            <p style="text-align:center; color:#666; margin-bottom:20px;">We will connect with you on WhatsApp shortly.</p>
+            <form id="modal-lead-form">
+                <input type="hidden" id="package-name" name="package_name" value="">
+                
+                <div class="form-row">
+                    <input type="text" class="form-input" placeholder="Your Name" required style="border:1px solid #ddd;">
+                </div>
+                <div class="form-row">
+                    <input type="tel" class="form-input" placeholder="WhatsApp Number" required style="border:1px solid #ddd;">
+                </div>
+                <div class="form-row">
+                    <input type="date" class="form-input" required style="border:1px solid #ddd;">
+                </div>
+                <div class="form-row">
+                    <select class="form-select" style="border:1px solid #ddd;">
+                        <option>Duration: 4 Days</option>
+                        <option>Duration: 5 Days</option>
+                        <option>Duration: 6 Days</option>
+                        <option>Duration: 7+ Days</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-search-main" style="margin-top:10px;">Send Enquiry</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
